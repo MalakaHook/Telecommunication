@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <!--HEAD-->
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Airsoft</title>
+      <link href="../style/style.css" rel="stylesheet">
+      <!--FONT-->
+      <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+      <!--FONTAWESOME ICON-->
+      <script src="https://kit.fontawesome.com/60a3955047.js" crossorigin="anonymous"></script>
+      <!--ANIMATION ON SCROLL-->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <!--BOOSTRAP-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+   </head>
+   <body>
+      <!--BARRE DE NAVIGATION-->
+      <nav class="navbarbackground navbar navbar-expand-lg  p-3 navbar-dark ">
+         <div class="container-fluid">
+            <a class="text-white navbar-brand" href="../index.html">Airsoft.xyz</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+               <ul class="navbar-nav ms-auto ">
+                  <li class="nav-item">
+                     <a class="text-white nav-link mx-2" aria-current="page" href="../index.html">Accueil</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="text-white nav-link mx-2" href="../info.html">C'est quoi le airsoft</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="text-white nav-link mx-2" href="../mode.html">Modes de jeu</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="text-white nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Type de airsoft
+                     </a>
+                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+                        <li><a class=" dropdown-item" href="../pageaeg/aeg.html">AEG</a></li>
+                        <li><a class=" dropdown-item" href="../pageaeg/gbbr.html">GBBR</a></li>
+                        <li><a class=" dropdown-item" href="../pageaeg/hpa.html">HPA</a></li>
+                        <li><a class=" dropdown-item" href="../pageaeg/spring.html">SPRING</a></li>
+                     </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="text-white nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Teching
+                     </a>
+                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                        <li><a class="dropdown-item" href="Shimming.html">Shimming</a></li>
+                        <li><a class="dropdown-item" href="motor.html">Motor height</a></li>
+                        <li><a class="dropdown-item" href="battery.html">Battery</a></li>
+                     </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="text-white nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Autres
+                     </a>
+                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
+                        <li><a class=" dropdown-item" href="../pageautre/faq.html">FAQ</a></li>
+                        <li><a class=" dropdown-item" href="../pageautre/plansite.html">Plan de site</a></li>
+                        <li><a class=" dropdown-item" href="../pageautre/contact.html">Contact</a></li>
+                        <li><a class=" dropdown-item" href="../pageautre/lienutile.html">Lien utile</a></li>
+                        <li><a class=" dropdown-item" href="../pageautre/apropos.html">À propos</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!--SHIMMING-->  
+      <div class="how-section1">
+         <div class="row divsection">
+            <div class="col-md-6 how-img" data-aos="fade-left">
+               <img src="../image/pageteching/pageshimming/shimming.jpg" class="rounded-circle img-fluid" alt=""/>
+            </div>
+            <div class="col-md-6" data-aos="fade-right">
+               <h4 class="text-danger ">LE SHIMMING</h4>
+               <p class="textinfobox ">Le "Shimming" ou "Calage" consiste à utilisers des "cales" ou "shims" pour permettre aux engrenages d'être le mieux aligner possible.
+                  Les engrenages bien aligner réduisent le stress sur les pièces et permet donc d'éviter de l'usure prématuré.
+                  Un mauvais calage des engrenages causera un fort bruit, un moteur qui se réchauffera beaucoup plus vite et la batterie se videra plus vite.
+                  C'est pour cela qu'il est recommander a tout le monde de faire faire le calage des engrenages par un technicien.
+               </p>
+            </div>
+         </div>
+         <div class="row divsection">
+            <div class="col-md-6" data-aos="fade-right">
+               <h4 class="text-danger">VOICI LE SON D'UN MAUVAIS CALAGE</h4>
+            </div>
+            <div class="col-md-6 how-img" data-aos="fade-left">
+               <audio controls>
+                  <source src="../audio/badshim.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+               </audio>
+            </div>
+         </div>
+         <div class="row divsection">
+            <div class="col-md-6" data-aos="fade-right">
+               <h4 class="text-danger">VOICI LE SON D'UN BON CALAGE</h4>
+            </div>
+            <div class="col-md-6 how-img" data-aos="fade-left">
+               <audio controls>
+                  <source src="../audio/goodshim.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+               </audio>
+            </div>
+         </div>
+      </div>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+         AOS.init();
+      </script>
+      <!--PIED DE PAGE-->
+      <footer class="navbar  justify-content-center container-fluid">
+         <a class="footernav" href="https://www.linkedin.com/in/francois-xavier-berard-682a6a16b/" target="_blank">
+         <i class="bi bi-linkedin"></i>
+         </a>
+         <a class="footernav" href="mailto:berardfx@gmail.com">
+         <i class="bi bi-envelope" style="color: white;"></i>
+         </a>
+         <nav class="footernav">
+            <a class="footernav" href="../pageautre/plansite.html">PLAN DE SITE</a>
+            <a class="footernav" href="../pageautre/faq.html">FAQ</a>
+            <a class="footernav" href="../pageautre/contact.html">CONTACT</a>
+            <a class="footernav" href="../pageautre/lienutile.html">LIEN</a>
+         </nav>
+         <div class="browser">
+            <a class="browsericon"><i class="fab fa-chrome"></i></a>
+            <a class="browsericon"><i class="fab fa-firefox"></i></a>
+            <a class="browsericon"><i class="fab fa-edge"></i></a>
+            <a class="browsericon"><i class="fab fa-opera"></i></a>
+            <a class="browsericon"><i class="fab fa-safari"></i></a>
+         </div>
+      </footer>
+   </body>
+</html>

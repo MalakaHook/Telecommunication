@@ -1,0 +1,356 @@
+body{
+    background-color: rgb(27, 27, 27) !important;
+      font-family: "AudioWide";
+  
+    }
+    #particles-js
+    {
+      height: 100%;
+      background: black;
+    }
+    .navbar{
+      font-family: "Ubuntu";
+      font-size: large;
+    }
+    .navbarbackground{
+      background: black;
+    }
+    
+    .infojeu{
+      font-size: 50px;
+      color: white;
+      font-family: "AudioWide";
+    }
+    .titlebackground{
+      background: rgb(75, 74, 74);
+    }
+    img{
+      height: 60%;
+      width: 60%;
+    }
+    
+    h3{
+      text-align: center;
+    }
+    .textinfo{
+      padding: 1cm;
+      background-color: red;
+      font-family: "AudioWide";
+      color: white;
+      font-size: larger;
+    }
+    .textairsoft{
+      padding: 1cm;
+      background-color: rgb(119, 119, 119);
+      font-family: "AudioWide";
+      color: white;
+      font-size: larger;
+    }
+    .textplan{
+      color: white;
+      font-size: large;
+      font-family: "Ubuntu";
+    }
+   .h1{
+     font-family: "Ubuntu";
+   }
+    .ammo{
+      width: 50%;
+      height: 50%;
+    }
+    
+    /*FAQ SECTION*/
+    .accordion{
+      text-align: center;
+      color: rgb(0, 0, 0);
+      font-family: "AudioWide";
+    }
+    .accordion-button.collapsed {
+      color: rgb(255, 255, 255);
+      font-family: "AudioWide";
+      font-size: large;
+    }
+    .faq{
+      font-family: 'Ubuntu', sans-serif;
+    }
+    .accordion-item:last-of-type .accordion-button.collapsed {
+      background-color: rgb(92, 89, 89);
+      border-bottom-right-radius: calc(0.25rem - 1px);
+      border-bottom-left-radius: calc(0.25rem - 1px);
+    }
+    
+    
+  
+  
+  /*TEXT LIEN*/
+  .textlien{
+    color: white;
+    font-family: "Ubuntu";
+    
+  }
+  .headerlien{
+    color: white;
+    font-family: "Audiowide";
+  }
+  .mb-4{
+    background: rgb(145, 144, 144);
+  }
+  .textform{
+    color: white;
+    font-family: "Ubuntu";
+  }
+  .containerfaq{
+    padding-bottom: 10.1cm;
+  }
+  /*TEST CONTACT FORM*/
+  .content{
+      top: 60px;
+      height: calc(100vh - 60px);
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+  }
+  
+  
+  .contact{
+      width: 80%;
+      max-width: 1080px;
+      display: flex;
+       box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.28);
+   border-radius: 5px;
+   overflow: hidden;
+  }
+  
+  
+  .other{
+      width: 60%;
+      background-image: url(https://i.insider.com/5374d14069bedd6d5c91670d?width=600&format=jpeg&auto=webp);
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+  }
+  
+  
+  .other:before{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(45deg, rgb(37, 39, 41), rgba(49, 53, 56, 0.81));
+  }
+  
+  
+  
+  
+  
+  
+  .form{
+      width: 40%;
+      background-color: black;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      
+  }
+  .form h1{
+      text-align: center;
+      margin-bottom: 20px;
+      width: 100%;
+  }
+  .form form{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+  }
+  .flex-rev {
+      display: flex;
+      flex-direction: column-reverse;
+      margin-bottom: 10px;
+          width: 100%;
+  }
+  h3{
+    font-family: "Ubuntu";
+  }
+  .flex-rev input, .flex-rev textarea {
+      border: none;
+      background-color: #615d5d;
+      padding: 12px 10px;
+      font-size: 16px;
+      resize: none;
+      margin-top: 7px;
+      margin-bottom: 16px;
+      border-radius: 5px;
+      color: #ffffff;
+      outline-color: #243342;
+      outline-width: thin;
+       -webkit-appearance: none;
+  }
+  .flex-rev textarea{
+      height: 150px;
+  }
+  button{
+      -webkit-appearance: none;
+      margin-right: 0;
+  }
+  .btnenvoyer{
+    font-size: larger;
+    font-family: "Ubuntu";
+    background: #a09d9d;
+  }
+  
+  .info {
+      position: relative;
+      padding: 20px;
+  }
+  
+  .txtform{
+    font-family: "Ubuntu";
+  }
+  .info h2 {
+      color: #f11616;
+      font-size: 34px;
+  }
+  h2{
+    font-family: "Ubuntu";
+  }
+  .info h3 {
+      color: white;
+      letter-spacing: 1.2px;
+      margin-top:  20px;
+  }
+  
+  .svg-wrap {
+      display: flex;
+      margin-top: 14px;
+  }
+  
+  .svg-wrap a {
+      border: 0;
+      padding: 0;
+      display: flex;
+      color: #bbbbbb;
+      font-size: 16px;
+      justify-content: center;
+      align-items: center;
+      font-style: italic;
+  }
+  
+  .svg-wrap a svg {
+      width: 20px;
+      height: 20px;
+      fill: white;
+      transition: fill 0.2s ease-in-out;
+      margin-right: 13px;
+  }
+  
+  .svg-wrap a:hover svg {
+      fill: #16f1dc;
+      cursor: pointer;
+  }
+  
+  .svg-wrap a:hover {
+      background-color: transparent;
+      color: #ffffff;
+      cursor: pointer;
+  }
+  .textcontact{
+    font-family: "Ubuntu";
+  }
+  
+  @media screen and (max-width: 900px){
+      .content{
+          padding: 10px 0 0;
+          display: block;
+      }
+      .map{
+          display: none;
+      }
+      .contact{
+          width: 100%;
+          flex-direction: column-reverse;
+          border-radius: 0;
+          box-shadow: 0px 0px 0px 0px;
+      }
+      .other{
+          width: 100%;
+          padding: 20px 0;
+      }
+      .form{
+          width: 100%;
+      }
+  }
+  
+  @media screen and (max-height: 660px){
+      .content{
+          align-items: flex-start;
+      }
+  }
+  
+  
+ 
+  /*PIED DE PAGE*/
+  
+  
+  footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    background: rgb(0, 0, 0);
+    padding: 40px;
+  }
+  .browsericon{
+    color: white;
+  }
+    
+    
+  .pageindex{
+      font-size: large;
+      font-family: "AudioWide";
+      color: white;
+    }
+    .row {
+      display: flex;
+    }
+    
+    .column {
+      flex: 33.33%;
+      padding: 5px;
+    }
+  .pageindex{
+      font-size: large;
+      font-family: "AudioWide";
+      color: white;
+    }
+    .row {
+      display: flex;
+    }
+    
+    .column {
+      flex: 33.33%;
+      padding: 5px;
+    }
+    .footertest{
+      background: rgb(0, 0, 0);
+      padding: 30px;
+    }
+    .footernav{
+      color: white;
+      font-family: "ubuntu";
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: center;
+    }
+ 
+  
+  /*TEST BACKGROUND*/
+
